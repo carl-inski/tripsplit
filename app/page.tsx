@@ -157,7 +157,7 @@ export default function Page() {
           </div>
         ) : settlements.length === 0 ? (
           <div className="all-even">
-            <span>✓</span> Alles ausgeglichen – niemand schuldet was.
+            <span className="check">✓</span> Alles ausgeglichen – niemand schuldet was.
           </div>
         ) : (
           settlements.map((s) => (

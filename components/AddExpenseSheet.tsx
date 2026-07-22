@@ -121,7 +121,7 @@ export default function AddExpenseSheet({ me, onClose, onSave }: Props) {
             {(["Carl", "Paul"] as Person[]).map((p) => (
               <button
                 key={p}
-                className={`${paidBy === p ? "active " + (p === "Carl" ? "yellow" : "blue") : ""}`}
+                className={`${paidBy === p ? "active " + (p === "Carl" ? "yellow" : "dark") : ""}`}
                 onClick={() => setPaidBy(p)}
               >
                 {p}
