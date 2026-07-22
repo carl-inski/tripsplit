@@ -166,6 +166,7 @@ select {
 /* ---------- Balance hero ---------- */
 .hero {
   padding: 24px;
+  margin-bottom: 16px;
   background:
     linear-gradient(135deg, rgba(255, 214, 10, 0.14), rgba(91, 157, 255, 0.12)),
     var(--glass-strong);
