@@ -1,0 +1,18 @@
+{
+  "name": "TripSplit · Tour de France",
+  "short_name": "TripSplit",
+  "description": "Ausgaben-Tracker für Carl & Paul",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1026",
+  "theme_color": "#0a1026",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
